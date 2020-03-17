@@ -3,4 +3,4 @@ project(Philae C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Philae main.c)
+add_executable(Philae main.c 7colors.c)

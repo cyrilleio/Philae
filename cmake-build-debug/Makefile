@@ -123,6 +123,33 @@ Philae/fast:
 	$(MAKE) -f CMakeFiles/Philae.dir/build.make CMakeFiles/Philae.dir/build
 .PHONY : Philae/fast
 
+7colors.o: 7colors.c.o
+
+.PHONY : 7colors.o
+
+# target to build an object file
+7colors.c.o:
+	$(MAKE) -f CMakeFiles/Philae.dir/build.make CMakeFiles/Philae.dir/7colors.c.o
+.PHONY : 7colors.c.o
+
+7colors.i: 7colors.c.i
+
+.PHONY : 7colors.i
+
+# target to preprocess a source file
+7colors.c.i:
+	$(MAKE) -f CMakeFiles/Philae.dir/build.make CMakeFiles/Philae.dir/7colors.c.i
+.PHONY : 7colors.c.i
+
+7colors.s: 7colors.c.s
+
+.PHONY : 7colors.s
+
+# target to generate assembly for a file
+7colors.c.s:
+	$(MAKE) -f CMakeFiles/Philae.dir/build.make CMakeFiles/Philae.dir/7colors.c.s
+.PHONY : 7colors.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... Philae"
+	@echo "... 7colors.o"
+	@echo "... 7colors.i"
+	@echo "... 7colors.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
