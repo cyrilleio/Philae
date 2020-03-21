@@ -150,6 +150,33 @@ Philae/fast:
 	$(MAKE) -f CMakeFiles/Philae.dir/build.make CMakeFiles/Philae.dir/7colors.c.s
 .PHONY : 7colors.c.s
 
+maths.o: maths.c.o
+
+.PHONY : maths.o
+
+# target to build an object file
+maths.c.o:
+	$(MAKE) -f CMakeFiles/Philae.dir/build.make CMakeFiles/Philae.dir/maths.c.o
+.PHONY : maths.c.o
+
+maths.i: maths.c.i
+
+.PHONY : maths.i
+
+# target to preprocess a source file
+maths.c.i:
+	$(MAKE) -f CMakeFiles/Philae.dir/build.make CMakeFiles/Philae.dir/maths.c.i
+.PHONY : maths.c.i
+
+maths.s: maths.c.s
+
+.PHONY : maths.s
+
+# target to generate assembly for a file
+maths.c.s:
+	$(MAKE) -f CMakeFiles/Philae.dir/build.make CMakeFiles/Philae.dir/maths.c.s
+.PHONY : maths.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +189,9 @@ help:
 	@echo "... 7colors.o"
 	@echo "... 7colors.i"
 	@echo "... 7colors.s"
+	@echo "... maths.o"
+	@echo "... maths.i"
+	@echo "... maths.s"
 .PHONY : help
 
 

@@ -49,4 +49,8 @@ CMakeFiles/Philae.dir/7colors.c.o: /Library/Frameworks/SDL2.framework/Headers/SD
 CMakeFiles/Philae.dir/7colors.c.o: /Library/Frameworks/SDL2.framework/Headers/begin_code.h
 CMakeFiles/Philae.dir/7colors.c.o: /Library/Frameworks/SDL2.framework/Headers/close_code.h
 CMakeFiles/Philae.dir/7colors.c.o: ../7colors.c
+CMakeFiles/Philae.dir/7colors.c.o: ../maths.h
+
+CMakeFiles/Philae.dir/maths.c.o: ../maths.c
+CMakeFiles/Philae.dir/maths.c.o: ../maths.h
 

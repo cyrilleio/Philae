@@ -85,6 +85,12 @@
 		<Unit filename="/Users/cyrillekone/CLionProjects/Philae/7colors.c">
 			<Option target="Philae"/>
 		</Unit>
+		<Unit filename="/Users/cyrillekone/CLionProjects/Philae/maths.c">
+			<Option target="Philae"/>
+		</Unit>
+		<Unit filename="/Users/cyrillekone/CLionProjects/Philae/maths.h">
+			<Option target="Philae"/>
+		</Unit>
 		<Unit filename="/Users/cyrillekone/CLionProjects/Philae/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
