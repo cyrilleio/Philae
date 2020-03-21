@@ -5,7 +5,7 @@
 		<Option title="Philae"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/cyrillekone/CLionProjects/Philae/cmake-build-debug"/>
@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/cyrillekone/CLionProjects/Philae/Philae"/>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -64,6 +66,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/Users/cyrillekone/CLionProjects/Philae/Philae"/>
+					<Add directory="/Library/Frameworks/SDL2.framework/Headers"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/11.0.0/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
@@ -81,11 +85,11 @@
 		<Unit filename="/Users/cyrillekone/CLionProjects/Philae/7colors.c">
 			<Option target="Philae"/>
 		</Unit>
-		<Unit filename="/Users/cyrillekone/CLionProjects/Philae/main.c">
-			<Option target="Philae"/>
-		</Unit>
 		<Unit filename="/Users/cyrillekone/CLionProjects/Philae/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/cyrillekone/CLionProjects/Philae/cmake/FindSDL2.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -5,6 +5,7 @@
 /* Template of the 7 wonders of the world of the 7 colors assigment. */
 
 #include <stdio.h>     /* printf */
+#include "SDL.h"
 
 /* We want a 30x30 board game by default */
 #define BOARD_SIZE 30

@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Philae.dir/7colors.c.o"
-  "CMakeFiles/Philae.dir/main.c.o"
   "Philae"
   "Philae.pdb"
 )
