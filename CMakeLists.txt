@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.15)
 project(Philae C)
 set(CMAKE_C_STANDARD 99)
-add_executable(Philae 7colors.c maths.c maths.h)
+add_executable(Philae 7colors.c maths.c maths.h io.c io.h)
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 find_package(SDL2 REQUIRED)
 include_directories(${PROJECT_NAME} ${SDL2_INCLUDE_DIR})

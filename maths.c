@@ -3,11 +3,12 @@
 //
 
 #include "maths.h"
-#include <math.h>
+#include "SDL.h"
 #include <stdlib.h>
-#include <time.h>
 #include <string.h>
 #include <stdio.h>
+
+//extern SDL_Color color ;
 int find(const int* tab, const int length, const int val){
     for (int i=0;i<length;i++){
         if (tab[i]== val){
@@ -22,7 +23,6 @@ void copy(const int* source, int* dest, int size_t){
         printf("index is %d",i);
     }
 }
-
 void shuffle(char* tab, const int length){
     int* sigma = permutation(length);
     char* c_tab = malloc(sizeof(char) * length);
@@ -31,9 +31,10 @@ void shuffle(char* tab, const int length){
         tab[i]=c_tab[sigma[i] - 1];
     }
     free(c_tab);
+
 }
 int random_integer(const int low, const int high){
-     unsigned int seed = time(NULL);
+     unsigned int seed = 1;
      rand_r(&seed);
      return rand() %(high - low +1) + low;
 }
@@ -51,3 +52,13 @@ int* permutation(const int n){
      }
      return tab;
 }
+int randint(const int n){
+    return random_integer(0,n);
+}
+int choice(const int* tab, const int length){
+    return tab[randint(length)];
+}
+SDL_Color random_choice(const SDL_Color* colors, int length){
+    return colors[randint(length)];
+}
+
